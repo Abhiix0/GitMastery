@@ -6,13 +6,13 @@ How to use this repo effectively.
 
 ## Picking a starting point
 
-**Never used Git before?** Start at m01 and go in order through Phase 1.
+**Never used Git before?** Start at m01 and go in order through Phase 0.
 
-**Know the basics but get confused by branches?** Jump to Phase 2 (m05).
+**Know the basics but get confused by branches?** Jump to Phase 1 (m05).
 
-**Comfortable with local Git but struggle with remotes and PRs?** Start at Phase 3 (m09).
+**Comfortable with local Git but struggle with remotes and PRs?** Start at Phase 2 (m09).
 
-**Want to level up on advanced stuff?** Phase 4 (m13) is for you.
+**Want to level up on advanced stuff?** Phase 3 (m13) is for you.
 
 If you're not sure, start at m01. The early modules are short and you can skip ahead once things feel obvious.
 
@@ -28,8 +28,8 @@ A step-by-step walkthrough. Commands are given to you. The goal is to see the co
 ### 2. Challenge
 You're given a goal and some hints, but not the exact commands. You have to figure out the steps yourself. This is where the learning actually sticks.
 
-### 3. Boss Fight
-No hints. A real-world scenario described in plain English. You have to solve it from scratch. These are designed to feel slightly uncomfortable — that's the point.
+### 3. Challenge (advanced)
+The challenge file has two parts: a standard unguided task, and a harder scenario at the end with no hints at all. That harder part is the "boss fight" — it's just not a separate file. These are designed to feel slightly uncomfortable — that's the point.
 
 ---
 

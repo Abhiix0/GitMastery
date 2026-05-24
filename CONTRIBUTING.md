@@ -15,30 +15,34 @@ Thanks for wanting to help. Here's everything you need to know.
 
 ## Folder structure
 
-Each module lives in its own folder under `modules/`:
+Each module lives in its own folder under the appropriate phase inside `modules/`:
 
 ```
 modules/
-  m01-init-and-clone/
-    README.md          ← module overview and learning goals
-    guided-lab.md      ← step-by-step walkthrough
-    challenge.md       ← do it yourself
-    boss-fight.md      ← no hints, real scenario
-    assets/            ← diagrams, screenshots (optional)
+  00-foundations/
+    m01-version-control/
+      README.md          ← module overview, theory, and labs (all in one)
+      lab/
+        README.md        ← step-by-step guided walkthrough
+      challenge/
+        README.md        ← unguided task, goal only
+      SOLUTION.md        ← spoiler-tagged solution
 ```
 
 ---
 
 ## Naming conventions
 
-Modules use the format `mNN-slug`:
+Modules use the format `mNN-slug` inside a phase folder:
 
+- Phase folders: `00-foundations`, `01-solo-workflows`, `02-collaboration`, `03-power-tools`
 - `NN` is a zero-padded number: `m01`, `m02`, ... `m16`
-- `slug` is lowercase, hyphen-separated, descriptive: `init-and-clone`, `merge-conflicts`
+- `slug` is lowercase, hyphen-separated, descriptive: `version-control`, `merge-conflicts`
 - No spaces, no uppercase, no underscores
 
 Examples:
-- ✅ `m03-branching-basics`
+- ✅ `modules/01-solo-workflows/m05-branching/`
+- ✅ `modules/02-collaboration/m11-pull-requests/`
 - ❌ `Module3_Branching`
 - ❌ `m3-Branching Basics`
 

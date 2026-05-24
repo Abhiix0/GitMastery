@@ -1,2 +1,16 @@
 {
+  "explorer.compactFolders": false,
+  "git.enableSmartCommit": false,
+  "git.confirmSync": false,
+  "scm.defaultViewMode": "tree",
+  "scm.graph.badges": "all",
+  "editor.rulers": [72],
+  "files.associations": {
+    "*.sh": "shellscript"
+  },
+  "extensions.recommendations": [
+    "mhutchie.git-graph",
+    "eamodio.gitlens",
+    "ritwickdey.liveserver"
+  ]
 }

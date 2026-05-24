@@ -1,53 +1,58 @@
 # Roadmap
 
-16 modules across 4 phases. Status updates as work progresses.
+16 modules, 4 phases. Current status below.
 
 **Legend:** ✅ Done | 🚧 In Progress | 📋 Planned
 
 ---
 
-## Phase 1 — Foundations
+## Phase 0 — Foundations
 
-| # | Module | Status |
-|---|--------|--------|
-| m01 | init-and-clone | 📋 Planned |
-| m02 | staging-and-commits | 📋 Planned |
-| m03 | commit-messages | 📋 Planned |
-| m04 | viewing-history | 📋 Planned |
+| Module | Name | Status |
+|--------|------|--------|
+| m01-version-control | Git config, identity, what Git is | ✅ Done |
+| m02-first-repository | git init, add, commit, status | ✅ Done |
+| m03-history | git log, HEAD, git checkout | ✅ Done |
+| m04-diffs | git diff, staged vs unstaged | ✅ Done |
 
----
+## Phase 1 — Solo Workflows
 
-## Phase 2 — Branching & Merging
+| Module | Name | Status |
+|--------|------|--------|
+| m05-branching | git branch, switch, merge basics | ✅ Done |
+| m06-merging | FF, no-FF, squash merge | ✅ Done |
+| m07-conflicts | Conflict markers, resolution strategies | ✅ Done |
+| m08-stash-tags | git stash, .gitignore, git tag | ✅ Done |
 
-| # | Module | Status |
-|---|--------|--------|
-| m05 | branching-basics | 📋 Planned |
-| m06 | merging | 📋 Planned |
-| m07 | merge-conflicts | 📋 Planned |
-| m08 | rebasing | 📋 Planned |
+## Phase 2 — Collaboration
 
----
+| Module | Name | Status |
+|--------|------|--------|
+| m09-remotes | clone, remote, push, pull, fetch | ✅ Done |
+| m10-workflows | Team coordination, day-to-day Git | 🚧 In Progress |
+| m11-pull-requests | PR anatomy, code review, review process | ✅ Done |
+| m12-team-strategies | GitHub Flow, Git Flow, trunk-based | 🚧 In Progress |
 
-## Phase 3 — Remote Workflows
+## Phase 3 — Power Tools
 
-| # | Module | Status |
-|---|--------|--------|
-| m09 | remotes-and-fetch | 📋 Planned |
-| m10 | push-and-pull | 📋 Planned |
-| m11 | pull-requests | 📋 Planned |
-| m12 | forking-workflow | 📋 Planned |
-
----
-
-## Phase 4 — Advanced & Real-World
-
-| # | Module | Status |
-|---|--------|--------|
-| m13 | undoing-things | 📋 Planned |
-| m14 | stash-and-worktrees | 📋 Planned |
-| m15 | tags-and-releases | 📋 Planned |
-| m16 | git-internals | 📋 Planned |
+| Module | Name | Status |
+|--------|------|--------|
+| m13-rebase | git rebase, interactive rebase | ✅ Done |
+| m14-debugging | git bisect, blame, log -S | ✅ Done |
+| m15-automation | Git hooks, aliases, scripting | 🚧 In Progress |
+| m16-advanced | Cherry-pick, internals, worktrees | 🚧 In Progress |
 
 ---
 
-Want to work on a module? Check [CONTRIBUTING.md](./CONTRIBUTING.md) and open an issue to claim it.
+## Scenarios
+
+| Scenario | Status |
+|----------|--------|
+| s01-rescue-the-release | 🚧 In Progress |
+| s02-the-great-merge-war | 🚧 In Progress |
+| s03-open-source-pr | ✅ Done |
+| s04-the-rogue-commit | ✅ Done |
+
+---
+
+Want to contribute a module? See [CONTRIBUTING.md](./CONTRIBUTING.md).
